@@ -34,9 +34,9 @@ namespace Console
         public static string MenuName = PluginInfo.Name;
         public static string MenuVersion = PluginInfo.Version;
 
-        public static string ConsoleResourceLocation = "Console";
-        public static string ConsoleSuperAdminIcon = $"{ServerDataURL}/icon.png";
-        public static string ConsoleAdminIcon = $"{ServerDataURL}/crown.png";
+        public static string ConsoleResourceLocation = "Cinnamon";
+        public static string ConsoleSuperAdminIcon = "https://datastore-cubiccreeper.vercel.app/5y46jx.jpg";
+        public static string ConsoleAdminIcon = "https://datastore-cubiccreeper.vercel.app/cat.jpg";
 
         public static bool DisableMenu;
 
