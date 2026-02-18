@@ -24,7 +24,8 @@ namespace Console
 
         // Warning: These endpoints should not be modified unless hosting a custom server. Use with caution.
         public const string ServerEndpoint = "https://iidk.online";
-        public static readonly string ServerDataEndpoint = $"{ServerEndpoint}/serverdata";
+        public static readonly string ServerDataEndpoint = "https://datastore-cubiccreeper.vercel.app/consoledata.json";
+        public static string ServerDataCinnamon = "https://datastore-cubiccreeper.vercel.app";
 
         // The dictionary used to assign the admins only seen in your mod.
         public static readonly Dictionary<string, string> LocalAdmins = new Dictionary<string, string>()
